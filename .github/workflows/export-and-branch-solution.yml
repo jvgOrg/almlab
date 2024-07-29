@@ -3,6 +3,7 @@ name: export-and-branch-solution.yml
 #  unpack it and prepare, commit and push a git branch with the changes
 
 on:
+  workflow_call:
   workflow_dispatch:
     inputs:
       # Change this value
