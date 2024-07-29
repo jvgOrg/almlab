@@ -12,11 +12,11 @@ jobs:
     uses: ./.github/workflows/export-and-branch-solution.yml
     with:
       #You can specify the solution name here
-      solution_name: devopstest
+      solution_name: 'devopstest'
       #Update your values here
-      BUILD_ENVIRONMENT_URL: orge27ea95c.crm4.dynamics.com
-      PRODUCTION_ENVIRONMENT_URL: org8e6c11b1.crm4.dynamics.com
-      CLIENT_ID: cb4ee365-0bc2-4958-9b57-ed5e7e2e3eb0
-      TENANT_ID: c8e82bf2-c526-45e0-9d58-775e83acb2a8      
+      BUILD_ENVIRONMENT_URL: 'orge27ea95c.crm4.dynamics.com'
+      PRODUCTION_ENVIRONMENT_URL: 'org8e6c11b1.crm4.dynamics.com'
+      CLIENT_ID: 'cb4ee365-0bc2-4958-9b57-ed5e7e2e3eb0'
+      TENANT_ID: 'c8e82bf2-c526-45e0-9d58-775e83acb2a8'      
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
